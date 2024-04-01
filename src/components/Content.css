@@ -1,0 +1,69 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+    color: white;
+  }
+  .pic{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  }
+  .title {
+    background-color: rgba(242, 242, 242, 0.5);/* Greyish background color */
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(43, 26, 26, 0.1);
+    border: 1px solid rgb(95, 91, 91);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+
+   .buttons {
+    display: flex;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-decoration: none;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add smooth transition */
+    font-size: 16px; /* Increase font size for better readability */
+    font-weight: bold; /* Make text bold */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+    border-color: #45a049; /* Darker green border color on hover */
+  }
+  
+  .button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4); /* Add focus ring */
+  }
+  
+  /* Add a subtle gradient effect */
+  .button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(0,0,0,0.1), rgba(255,255,255,0.1)); /* Adjust gradient colors and direction */
+    border-radius: 5px; /* Match button border radius */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+  }
+   

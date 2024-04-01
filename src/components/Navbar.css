@@ -1,0 +1,41 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(68, 70, 71, 0.5); /* Change background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .logo_comp {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_img {
+    width: 300px; /* Adjust logo size as needed */
+    height: auto;
+    margin-right: 10px; 
+  }
+  
+  .logo {
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-left: 30px; /* Add spacing between navigation links */
+    font-size: 25px; /* Adjust font size as needed */
+    text-decoration: wavy;
+    color: #333; /* Set link color */
+  }
+  
+  .nav-link:hover {
+    color: #28dc55; /* Change link color on hover */
+  }
+  

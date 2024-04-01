@@ -1,0 +1,74 @@
+/* EnrollmentForm.css */
+.page {
+    display: flex;
+    background-image: url("../Assets/bg2_image.jpg");
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .enrollment-form-container {
+    width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(249, 249, 249, 0.9);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+  }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    width: 120px; /* Adjust width as needed */
+    margin-right: 10px; /* Add some spacing between label and textarea */
+  }
+  
+  textarea {
+    flex: 1; /* Allow textarea to grow and fill remaining space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
